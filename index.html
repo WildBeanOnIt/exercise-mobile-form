@@ -36,38 +36,62 @@
     <form action="#">
 
         <!-- *Name -->
-        <i class="fa-solid fa-user"></i>
-        <label for="name">name</label>
-        <input type="text" name="name" id="name" placeholder="Name">
-        <br>
+        <div class="first">
+            <i class="fa-solid fa-user"></i>
+            <input class="name-input" name="name" type="text" name="name" id="name" placeholder="Name">
+            <br>
+        </div>
 
         <!-- *phone -->
-        <i class="fa-solid fa-phone"></i>
-        <label for="phone">Phone Number</label>
-        <input type="number" name="phone" id="phone" placeholder="Phone Number">
-        <!-- *2nd input -->
-        <input type="text" name="#" id="#" placeholder="Label">
-        <br>
+        <div class="second">
+            <i class="fa-solid fa-phone"></i>
+            <input class="phone-number" type="number" name="phone" id="phone" placeholder="Phone Number">
+            <!-- *2nd input -->
+
+            <select name="example" id="example">
+                <option value="au">Label</option>
+                <option value="test">test</option>
+                <option value="test2">test2</option>
+            </select>
+            <br>
+        </div>
 
         <!-- *addy -->
-        <i class="fa-solid fa-location-dot"></i>
-        <label for="addy">Address</label>
-        <input type="text" name="addy" id="addy" placeholder="Address">
+        <div class="third">
+            <i class="fa-solid fa-location-dot"></i>
+            <input class="addy" type="text" name="addy" id="addy" placeholder="Address">
 
-        <input type="text" name="addy" id="addy" placeholder="City">
-        <input type="text" name="addy" id="addy" placeholder="State">
-        <input type="number" name="addy" id="addy" placeholder="Zip">
-        <br>
+            <div class="addy-container">
+                <input class="addy-input city" type="text" name="addy" id="city" placeholder="City">
+
+                <!-- <input class="addy-input state" type="text" name="addy" id="state" placeholder="State"> -->
+                <div class="state-opt">
+                    <select name="example" id="where">
+                        <option value="au">State</option>
+                        <option value="test">test</option>
+                        <option value="test2">test2</option>
+                    </select>
+
+
+                    <input class="addy-input zip" type="number" name="addy" id="zip" placeholder="Zip">
+                </div>
+                <br>
+            </div>
+        </div>
 
 
         <!-- *email -->
-        <i class="fa-solid fa-envelope"></i>
-        <input type="text" name="" id="" placeholder="Email">
-        <br>
+        <div class="fourth">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" name="email" id="email" placeholder="Email">
+            <br>
+        </div>
 
         <!-- *bday -->
-        <i class="fa-solid fa-cake-candles"></i>
-        <input type="date" name="" id="" placeholder="Birthday">
+        <div class="fifth">
+            <i class="fa-solid fa-cake-candles"></i>
+            <input type="date" name="date" id="date">
+        </div>
 
     </form>
 
