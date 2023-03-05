@@ -10,8 +10,10 @@
   }
 
   .navbar {
+    background-color: #6202ee;
     outline: 2px solid red;
     max-width: 480px;
+    color: #ffffff;
   }
 
   .container {
