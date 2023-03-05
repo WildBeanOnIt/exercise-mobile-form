@@ -1,8 +1,4 @@
 @media (max-width: 480px) {
-  body {
-    background-color: aqua;
-  }
-
   * {
     padding: 0;
     margin: 0;
@@ -11,7 +7,6 @@
 
   .navbar {
     background-color: #6202ee;
-    outline: 2px solid red;
     max-width: 480px;
     color: #ffffff;
   }
@@ -26,10 +21,143 @@
     margin-right: auto;
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h4 {
+    font-family: "Poppins";
+    font-weight: 100;
   }
 
   .icons-right {
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-solid {
+    padding-right: 15px;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    /* outline: 4px solid black; */
+    max-width: 80%;
+    margin: auto;
+    padding: 15px;
+  }
+
+  .name-input {
+    border-radius: 5px 5px 0 0;
+    height: 45px;
+    background-color: #e6e6e6;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+  }
+
+  .phone-number {
+    width: 45%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #878787;
+    background-color: white;
+  }
+
+  .phone-number,
+  .phone-number-label {
+    padding-left: 10px;
+  }
+
+  select {
+    border-radius: 5px;
+    height: 45px;
+    color: #878787;
+    padding: 20px;
+    padding: 12px;
+    width: 33%;
+  }
+
+  .addy {
+    width: 80%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5px 5px 0 0;
+    height: 45px;
+    background-color: #e6e6e6;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+  }
+
+  .addy-container {
+    /* outline: 4px solid blue; */
+    width: 80%;
+    /* padding-left: 10px; */
+    margin-left: 30px;
+    padding: 9px 0;
+    /* height: 45px; */
+  }
+
+  input#city {
+    height: 45px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #878787;
+    background-color: white;
+  }
+
+  input#state {
+    height: 45px;
+    width: 20%;
+  }
+
+  select#where {
+    width: 53%;
+    background-color: #e6e6e6;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  input#zip {
+    border-radius: 5px 5px 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #e6e6e6;
+    height: 45px;
+    width: 45%;
+    padding-left: 10px;
+  }
+
+  .state-opt {
+    padding-top: 10px;
+  }
+
+  input#email {
+    height: 45px;
+    padding-left: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #878787;
+    background-color: white;
+  }
+
+  input {
+    border-radius: 5px 5px 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #e6e6e6;
+    height: 45px;
+    width: 80%;
+    padding-left: 10px;
   }
 }
