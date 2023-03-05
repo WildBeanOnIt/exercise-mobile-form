@@ -17,14 +17,17 @@
   .container {
     display: flex;
     justify-content: flex-end;
+    padding: 1rem;
   }
 
   .icons-left {
     margin-right: auto;
     display: flex;
+    gap: 2rem;
   }
 
   .icons-right {
     display: flex;
+    gap: 2rem;
   }
 }
